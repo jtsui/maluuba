@@ -1,0 +1,82 @@
+where can I buy a hammer,BUSINESS,BUSINESS_SEARCH,hammer
+i am hungry,BUSINESS,BUSINESS_SEARCH,hungry
+i want some pizza,BUSINESS,BUSINESS_SEARCH,pizza
+book a table for 2 at an italian restaurant nearby,BUSINESS,BUSINESS_RESERVATION,2|italian
+reserve a room at a hotel,BUSINESS,BUSINESS_RESERVATION,hotel
+call josh,CALL,CALL_DIAL,josh
+dial pizza hut,CALL,CALL_DIAL,pizza hut
+did i miss any calls,CALL,CALL_CHECK_MISSED,
+respond to that missed call,CALL,CALL_RESPOND_MISSED,
+accept this call,CALL,CALL_ACCEPT_INCOMING,
+add josh 5551234,CONTACT,CONTACT_ADD,5551234|josh
+what is josh's phone number,CONTACT,CONTACT_SEARCH,phone number|josh
+show me adrian's information,CONTACT,CONTACT_SEARCH,adrian
+elizabeth is my mom,CONTACT,CONTACT_SET_ALIAS,elizabeth|mother
+who is Barack Obama,KNOWLEDGE,KNOWLEDGE_SEARCH,
+who is the president,KNOWLEDGE,KNOWLEDGE_SEARCH,
+what is two plus two,KNOWLEDGE,KNOWLEDGE_SEARCH,
+what is the tallest mountain,KNOWLEDGE,KNOWLEDGE_SEARCH,
+I want to see a funny movie,ENTERTAINMENT,ENTERTAINMENT_MOVIE,comedy
+I want to see skyfall,ENTERTAINMENT,ENTERTAINMENT_MOVIE,skyfall
+when do the leafs play,ENTERTAINMENT,ENTERTAINMENT_EVENT,leafs
+I want to see justin bieber,ENTERTAINMENT,ENTERTAINMENT_EVENT,justin bieber
+what's fun to do on the weekend,ENTERTAINMENT,ENTERTAINMENT_AMBIGUOUS,
+email adrian about the api,EMAIL,EMAIL_SEND,api|adrian
+show me emails from josh,EMAIL,EMAIL_DISPLAY,josh
+help,HELP,HELP_HELP,
+what can you do,HELP,HELP_HELP,
+i would like a first class ticket to new york leaving from toronto on the day before christmas returning a week after christmas,TRAVEL,TRAVEL_FLIGHT,
+play the song firework,MUSIC,MUSIC_PLAY,firework
+please pause the music,MUSIC,MUSIC_PAUSE,
+Set up a meeting from 8 to 10,CALENDAR,CALENDAR_CREATE_EVENT,meeting
+what meetings do I have on Friday,CALENDAR,CALENDAR_SEARCH,meetings
+Cancel my next meeting,CALENDAR,CALENDAR_REMOVE_EVENT,meeting
+Move my 5 o'clock to 7,CALENDAR,CALENDAR_MODIFY_EVENT,
+When am I available,CALENDAR,CALENDAR_AVAILABILITY,
+What is the weather outside?,WEATHER,WEATHER_STATUS,
+What is the wind speed?,WEATHER,WEATHER_DETAILS,
+When is the sunset?,WEATHER,WEATHER_SUNSET,
+When is sunrise for Friday?,WEATHER,WEATHER_SUNRISE,
+Remind me to put out the garbage tonight,REMINDER,REMINDER_SET,put out the garbage
+Find me reminders for this week,REMINDER,REMINDER_SEARCH,
+set an alarm for five thirty,ALARM,ALARM_SET,
+Set an alarm at five thirty every morning,ALARM,ALARM_SET_RECURRING,
+Change my morning alarms from 5 to 7,ALARM,ALARM_MODIFY,
+Cancel my alarm at 6 tonight,ALARM,ALARM_CANCEL,
+Remove all my alarms,ALARM,ALARM_CANCEL_ALL_ALARMS,
+Find my alarms,ALARM,ALARM_SEARCH,
+Set a 30 minute timer,TIMER,TIMER_START,
+show my timer,TIMER,TIMER_DISPLAY,
+cancel the timer,TIMER,TIMER_CANCEL,
+pause timer,TIMER,TIMER_PAUSE,
+start a stopwatch,STOPWATCH,STOPWATCH_START,
+stop a stopwatch,STOPWATCH,STOPWATCH_STOP,
+display the stopwatch,STOPWATCH,STOPWATCH_DISPLAY,
+How do I get to the mall from my house,NAVIGATION,NAVIGATION_DIRECTIONS,house|mall
+how do I get to san francisco,NAVIGATION,NAVIGATION_DIRECTIONS,san francisco
+Show my current location,NAVIGATION,NAVIGATION_WHERE_AM_I,
+When will the next bus come to the university,TRANSIT,TRANSIT_NEXT_BUS,university|bus
+bus stops near the mall,TRANSIT,TRANSIT_NEARBY_STOPS,mall
+What is the schedule for the green route tomorrow,TRANSIT,TRANSIT_SCHEDULE,green
+i want to buy a book on amazon,SEARCH,SEARCH_AMAZON,book
+search amazon for electronics,SEARCH,SEARCH_AMAZON,electronics
+bing search ryan seacrest,SEARCH,SEARCH_BING,ryan seacrest
+search ebay for socks,SEARCH,SEARCH_EBAY,socks
+search the web for cheese,SEARCH,SEARCH_DEFAULT,cheese
+google search androids,SEARCH,SEARCH_GOOGLE,androids
+how do i make butter chicken,SEARCH,SEARCH_RECIPES,butter chicken
+search wikipedia for the romans,SEARCH,SEARCH_WIKIPEDIA,romans
+show unread texts,TEXT,TEXT_DISPLAY,
+send a text to rob how is the law stuff,TEXT,TEXT_SEND,rob|how is the law stuff
+send a facebook message to zhiyuan hey g,SOCIAL,SOCIAL_FACEBOOK_SEND_MESSAGE,
+show me my facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+show me pictures of irene,SOCIAL,SOCIAL_FACEBOOK_SHOW_PHOTOS,irene
+take me to cynthia's facebook wall,SOCIAL,SOCIAL_FACEBOOK_SHOW_WALL,cynthia
+write on sam's wall good luck in korea,SOCIAL,SOCIAL_FACEBOOK_WRITE_ON_WALL,sam|good luck in korea
+check me in at communitech,SOCIAL,SOCIAL_FOURSQUARE_CHECK_IN,
+where have i checked in,SOCIAL,SOCIAL_FOURSQUARE_SHOW_CHECKINS,
+show my twitter timeline,SOCIAL,SOCIAL_TWITTER_SHOW_FOLLOWER,
+what is trending on twitter,SOCIAL,SOCIAL_TWITTER_SHOW_TRENDING,
+tweet i want a burrito,SOCIAL,SOCIAL_TWITTER_TWEET,i want a burrito
+what was the score of the game last night,SPORTS,SPORTS_MISC,
+launch angry birds,APPLICATION,APPLICATION_LAUNCH,angry birds
