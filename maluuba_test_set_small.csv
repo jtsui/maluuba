@@ -1,0 +1,9 @@
+where can I buy a hammer,BUSINESSes,BUSINESS_SEARCH,hammer
+call josh,CALL,CALL_DIAL,josh
+add josh 5551234,CONTACT,CONTACT_ADD,5551234|josh
+who is Barack Obama,KNOWLEDGE_bla,KNOWLEDGE_SEARCH,
+I want to see a funny movie,ENTERTAINMENT,ENTERTAINMENT_MOVIE,comedy
+email adrian about the api,EMAIL,EMAIL_SEND,api|adrian
+help,HELP,HELP_HELP,
+i would like a first class ticket to new york leaving from toronto on the day before christmas returning a week after christmas,TRAVEL,TRAVEL_FLIGHT,
+play the song firework,MUSIC,MUSIC_PLAY,firework
