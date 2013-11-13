@@ -31,8 +31,8 @@ def tag(fin, fout):
     in a list and output as another csv
     '''
     results = []
-    with open(fin) as fin:
-        lines = sum(1 for line in fin)
+    with open(fin) as input_file:
+        lines = sum(1 for line in input_file)
     bar = pbar(lines - 1)  # for header
     bar.start()
     i = 0
@@ -94,7 +94,7 @@ def evaluate(fin):
     title = 'Summary for %s samples' % len(results)
     print title + '\n' + '-' * len(title)
     print ' ' * pad + 'tp\tfp\tfn\ttn\trecall\tprecision\tsamples'
-    categories = set([x[1] for x in results])
+    categories = sorted(list(set([x[1] for x in results])))
     for category_name in categories:
         labels = [(category, retrieved_category)
                   for sentence, category, retrieved_category, action, retrieved_action in results if category == category_name]
@@ -102,7 +102,7 @@ def evaluate(fin):
     category_summary = 'category overall'.ljust(pad) + '%0.2f\t%0.2f\t%0.2f\t%0.2f\t%0.2f\t%0f' % get_precision_recall(
         [(category, retrieved_category) for sentence, category, retrieved_category, action, retrieved_action in results])
     print '-' * len(category_summary) + '\n' + category_summary + '\n'
-    actions = set([x[3] for x in results])
+    actions = sorted(list(set([x[3] for x in results])))
     for action_name in actions:
         labels = [(action, retrieved_action)
                   for sentence, category, retrieved_category, action, retrieved_action in results if action == action_name]
@@ -113,7 +113,7 @@ def evaluate(fin):
 
 
 def main():
-    # tag('test_all.csv', 'test_all_output.csv')
+    tag('test_all.csv', 'test_all_output.csv')
     evaluate('test_all_output.csv')
 
 if __name__ == '__main__':

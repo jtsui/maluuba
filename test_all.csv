@@ -85,11 +85,11 @@ add josh 5551234 to my phonebook,CONTACT,CONTACT_ADD,
 add new contact for meena 6758759898,CONTACT,CONTACT_ADD,
 insert new contact for meena 456345634,CONTACT,CONTACT_ADD,
 add new contact to my phonebook 9889876767,CONTACT,CONTACT_ADD,
-what is josh's phone number,CONTACT,CONTACT_SEARCH,phone number|josh
 show me adrian's information,CONTACT,CONTACT_SEARCH,adrian
 show me josh's phonenumber,CONTACT,CONTACT_SEARCH,
 look up josh in my phonebook,CONTACT,CONTACT_SEARCH,
 look up josh in my contacts,CONTACT,CONTACT_SEARCH,
+what is josh's phone number,CONTACT,CONTACT_SEARCH,phone number|josh
 elizabeth is my mom,CONTACT,CONTACT_SET_ALIAS,elizabeth|mother
 who is Barack Obama,KNOWLEDGE,KNOWLEDGE_SEARCH,
 who is the president,KNOWLEDGE,KNOWLEDGE_SEARCH,
@@ -118,7 +118,7 @@ email adrian about the api,EMAIL,EMAIL_SEND,api|adrian
 show me emails from josh,EMAIL,EMAIL_DISPLAY,josh
 help,HELP,HELP_HELP,
 what can you do,HELP,HELP_HELP,
-i would like a first class ticket to new york leaving from toronto on the day before christmas returning a week after christmas,TRAVEL,TRAVEL_FLIGHT,
+i would like a first class ticket to new york from toronto on the day before christmas returning a week after christmas,TRAVEL,TRAVEL_FLIGHT,
 book flight from san francisco to new york for tomorrow,TRAVEL,TRAVEL_FLIGHT,
 flying out of seattle to las vegas on the 23rd,TRAVEL,TRAVEL_FLIGHT,
 flying from portland to london,TRAVEL,TRAVEL_FLIGHT,
@@ -126,6 +126,14 @@ fly to new delhi from san francisco during the thanksgiving weekend,TRAVEL,TRAVE
 book flight from tahoe to jersey a week from now,TRAVEL,TRAVEL_FLIGHT,
 fly out of san francisco,TRAVEL,TRAVEL_FLIGHT,
 plane tickets for san diego on the 23rd,TRAVEL,TRAVEL_FLIGHT,
+get a ticket from san francisco to new york,TRAVEL,TRAVEL_FLIGHT,
+book a ticket from san francisco to new york,TRAVEL,TRAVEL_FLIGHT,
+buy a ticket from san francisco to new york,TRAVEL,TRAVEL_FLIGHT,
+purchase a ticket from san francisco to new york,TRAVEL,TRAVEL_FLIGHT,
+fly from san francisco to new york,TRAVEL,TRAVEL_FLIGHT,
+book flight from new jersey to boston tomorrow,TRAVEL,TRAVEL_FLIGHT,
+fly out of san francisco next monday,TRAVEL,TRAVEL_FLIGHT,
+plane tickets for san francisco,TRAVEL,TRAVEL_FLIGHT,
 play the song firework,MUSIC,MUSIC_PLAY,firework
 please pause the music,MUSIC,MUSIC_PAUSE,
 i want to listen to sting songs,MUSIC,MUSIC_PLAY,
@@ -197,6 +205,13 @@ how do i make butter chicken,SEARCH,SEARCH_RECIPES,butter chicken
 search wikipedia for the romans,SEARCH,SEARCH_WIKIPEDIA,romans
 show unread texts,TEXT,TEXT_DISPLAY,
 send a text to rob how is the law stuff,TEXT,TEXT_SEND,rob|how is the law stuff
+send a text message to jim how is it going,TEXT,TEXT_SEND,
+send a text to joanne have you texted tim yet,TEXT,TEXT_SEND,
+send a text to annie where are you,TEXT,TEXT_SEND,
+please text jim hi,TEXT,TEXT_SEND,
+text robert i see you,TEXT,TEXT_SEND,
+text jim lets meet with pam tonight,TEXT,TEXT_SEND,
+send a text message to doris lets meet,TEXT,TEXT_SEND,
 send a facebook message to zhiyuan hey g,SOCIAL,SOCIAL_FACEBOOK_SEND_MESSAGE,
 message shubham on facebook,SOCIAL,SOCIAL_FACEBOOK_SEND_MESSAGE,shubham|message
 send shubham a message using facebook,SOCIAL,SOCIAL_FACEBOOK_SEND_MESSAGE,shubham|message
@@ -240,7 +255,14 @@ whats popular on twitter,SOCIAL,SOCIAL_TWITTER_SHOW_TRENDING,
 post a tweet i want a burrito,SOCIAL,SOCIAL_TWITTER_TWEET,i want a burrito
 tweet i want a burrito,SOCIAL,SOCIAL_TWITTER_TWEET,i want a burrito
 tweet to the world that i want a burrito,SOCIAL,SOCIAL_TWITTER_TWEET,i want a burrito
-open camera,APPLICATION,APPLICATION_LAUNCH,
+open the email app,APPLICATION,APPLICATION_LAUNCH,
+open gmail,APPLICATION,APPLICATION_LAUNCH,
+launch browser,APPLICATION,APPLICATION_LAUNCH,
+open messages,APPLICATION,APPLICATION_LAUNCH,
+open dialer,APPLICATION,APPLICATION_LAUNCH,
+launch dialer,APPLICATION,APPLICATION_LAUNCH,
+open the newsreader,APPLICATION,APPLICATION_LAUNCH,
+launch the newsreader,APPLICATION,APPLICATION_LAUNCH,
 launch camera,APPLICATION,APPLICATION_LAUNCH,
 open camera app,APPLICATION,APPLICATION_LAUNCH,
 launch camera app,APPLICATION,APPLICATION_LAUNCH,
@@ -264,3 +286,16 @@ give me the scores from last nights game,SPORTS,SPORTS_MISC,
 who played last night,SPORTS,SPORTS_MISC,
 who is playing today,SPORTS,SPORTS_MISC,
 how did  the la giants do today,SPORTS,SPORTS_MISC,
+what's the score of the warriors,SPORTS,SPORTS_MISC,
+what did the warriors score,SPORTS,SPORTS_MISC,
+who won the warriors game,SPORTS,SPORTS_MISC,
+how many games have the warriors won,SPORTS,SPORTS_MISC,
+when is the nba game,SPORTS,SPORTS_MISC,
+when is the golf tournament,SPORTS,SPORTS_MISC,
+when is the hockey game,SPORTS,SPORTS_MISC,
+who played in the soccer match,SPORTS,SPORTS_MISC,
+when is the badminton tournament,SPORTS,SPORTS_MISC,
+when is the swimming meet,SPORTS,SPORTS_MISC,
+tell me when the polo match is,SPORTS,SPORTS_MISC,
+who won the superbowl,SPORTS,SPORTS_MISC,
+who is the best team in the nba,SPORTS,SPORTS_MISC,
