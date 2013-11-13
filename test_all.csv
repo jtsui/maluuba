@@ -1,0 +1,266 @@
+sentence,category,action,entities
+where can I buy a hammer,BUSINESS,BUSINESS_SEARCH,hammer
+i am hungry,BUSINESS,BUSINESS_SEARCH,hungry
+i want some pizza,BUSINESS,BUSINESS_SEARCH,pizza
+i would like a burrito,BUSINESS,BUSINESS_SEARCH,buritto
+coffee places near by,BUSINESS,BUSINESS_SEARCH,coffee
+a good place for a coffee,BUSINESS,BUSINESS_SEARCH,coffee
+where can I buy a pizza,BUSINESS,BUSINESS_SEARCH,
+i am craving ice cream,BUSINESS,BUSINESS_SEARCH,
+i am starving,BUSINESS,BUSINESS_SEARCH,
+hardware stores nearby,BUSINESS,BUSINESS_SEARCH,
+nearby coffee shops,BUSINESS,BUSINESS_SEARCH,
+i need to buy a hammer,BUSINESS,BUSINESS_SEARCH,
+great places for tea,BUSINESS,BUSINESS_SEARCH,
+i want some apples,BUSINESS,BUSINESS_SEARCH,
+i want a burrito,BUSINESS,BUSINESS_SEARCH,
+nearby coffee shops,BUSINESS,BUSINESS_SEARCH,
+great places for coffee,BUSINESS,BUSINESS_SEARCH,
+where can I buy some levis jeans,BUSINESS,BUSINESS_SEARCH,
+i am famished,BUSINESS,BUSINESS_SEARCH,
+i want a slice of pizza,BUSINESS,BUSINESS_SEARCH,
+i would like an enchilada,BUSINESS,BUSINESS_SEARCH,
+italian restaurants close to me,BUSINESS,BUSINESS_SEARCH,
+a good place to study,BUSINESS,BUSINESS_SEARCH,
+where can I buy a pony,BUSINESS,BUSINESS_SEARCH,
+i want a drink,BUSINESS,BUSINESS_SEARCH,
+i need new shoes,BUSINESS,BUSINESS_SEARCH,
+clothing stores nearby,BUSINESS,BUSINESS_SEARCH,
+i want to see the circus,BUSINESS,BUSINESS_SEARCH,
+i want some cotton candy,BUSINESS,BUSINESS_SEARCH,
+find me a bar,BUSINESS,BUSINESS_SEARCH,
+where can i buy an apple,BUSINESS,BUSINESS_SEARCH,
+where can i go to bowl,BUSINESS,BUSINESS_SEARCH,
+where can i buy a sweater,BUSINESS,BUSINESS_SEARCH,
+take me to the ball game,BUSINESS,BUSINESS_SEARCH,
+reserve a room at a hotel,BUSINESS,BUSINESS_RESERVATION,hotel
+make a hotel reservation for tonight,BUSINESS,BUSINESS_RESERVATION,hotel
+make a dinner reservation,BUSINESS,BUSINESS_RESERVATION,dinner
+please make me a reservation at the restaurant,BUSINESS,BUSINESS_RESERVATION,
+make a car rental reservation for me,BUSINESS,BUSINESS_RESERVATION,
+make a lunch reservation,BUSINESS,BUSINESS_RESERVATION,
+reserve a ticket to the movie,BUSINESS,BUSINESS_RESERVATION,
+reserve a ticket to the basketball game,BUSINESS,BUSINESS_RESERVATION,
+make a reservation for the musical,BUSINESS,BUSINESS_RESERVATION,
+reserve a spot at the restaurant tonight,BUSINESS,BUSINESS_RESERVATION,
+make a car rental reservation for me,BUSINESS,BUSINESS_RESERVATION,
+make a lunch reservation,BUSINESS,BUSINESS_RESERVATION,
+give josh a bell,CALL,CALL_DIAL,josh
+ring josh,CALL,CALL_DIAL,josh
+call josh,CALL,CALL_DIAL,josh
+dial pizza hut,CALL,CALL_DIAL,pizza hut
+dial tom,CALL,CALL_DIAL,
+give tom a call,CALL,CALL_DIAL,
+call jimmy,CALL,CALL_DIAL,
+call up stephanie,CALL,CALL_DIAL,
+telephone adrian,CALL,CALL_DIAL,
+please dial ron,CALL,CALL_DIAL,
+call sally,CALL,CALL_DIAL,
+call sal,CALL,CALL_DIAL,
+give tim a call,CALL,CALL_DIAL,
+ring tim,CALL,CALL_DIAL,
+give jimmy a ring,CALL,CALL_DIAL,
+please telephone my son,CALL,CALL_DIAL,
+list missed calls,CALL,CALL_CHECK_MISSED,
+list all missed calls,CALL,CALL_CHECK_MISSED,
+list missed calls from today,CALL,CALL_CHECK_MISSED,
+show missed calls,CALL,CALL_CHECK_MISSED,
+show me my missed calls,CALL,CALL_CHECK_MISSED,
+missed calls,CALL,CALL_CHECK_MISSED,
+show me all my missed calls,CALL,CALL_CHECK_MISSED,
+list my missed calls,CALL,CALL_CHECK_MISSED,
+did i miss any calls,CALL,CALL_CHECK_MISSED,
+do i have any missed calls,CALL,CALL_CHECK_MISSED,
+respond to that missed call,CALL,CALL_RESPOND_MISSED,
+call back the last missed call,CALL,CALL_RESPOND_MISSED,
+dial the last missed call,CALL,CALL_RESPOND_MISSED,
+dial back that missed call,CALL,CALL_RESPOND_MISSED,
+accept this call,CALL,CALL_ACCEPT_INCOMING,
+answer this call,CALL,CALL_ACCEPT_INCOMING,
+pick up this call,CALL,CALL_ACCEPT_INCOMING,
+hang up this call,CALL,CALL_ACCEPT_INCOMING,
+add josh 5551234,CONTACT,CONTACT_ADD,5551234|josh
+create new contact for meena 5554679898,CONTACT,CONTACT_ADD,
+add josh 5551234 to my phonebook,CONTACT,CONTACT_ADD,
+add new contact for meena 6758759898,CONTACT,CONTACT_ADD,
+insert new contact for meena 456345634,CONTACT,CONTACT_ADD,
+add new contact to my phonebook 9889876767,CONTACT,CONTACT_ADD,
+what is josh's phone number,CONTACT,CONTACT_SEARCH,phone number|josh
+show me adrian's information,CONTACT,CONTACT_SEARCH,adrian
+show me josh's phonenumber,CONTACT,CONTACT_SEARCH,
+look up josh in my phonebook,CONTACT,CONTACT_SEARCH,
+look up josh in my contacts,CONTACT,CONTACT_SEARCH,
+elizabeth is my mom,CONTACT,CONTACT_SET_ALIAS,elizabeth|mother
+who is Barack Obama,KNOWLEDGE,KNOWLEDGE_SEARCH,
+who is the president,KNOWLEDGE,KNOWLEDGE_SEARCH,
+what is two plus two,KNOWLEDGE,KNOWLEDGE_SEARCH,
+what is the tallest mountain,KNOWLEDGE,KNOWLEDGE_SEARCH,
+tell me more about the mount everent,KNOWLEDGE,KNOWLEDGE_SEARCH,
+where is the effeil tower located,KNOWLEDGE,KNOWLEDGE_SEARCH,
+what language do they speak in france,KNOWLEDGE,KNOWLEDGE_SEARCH,
+whats the russian currency,KNOWLEDGE,KNOWLEDGE_SEARCH,
+how populated is india,KNOWLEDGE,KNOWLEDGE_SEARCH,
+how is the most popular us president,KNOWLEDGE,KNOWLEDGE_SEARCH,
+when was uc berkeley started,KNOWLEDGE,KNOWLEDGE_SEARCH,
+how old is the bell tower,KNOWLEDGE,KNOWLEDGE_SEARCH,
+when can we see the fair again,KNOWLEDGE,KNOWLEDGE_SEARCH,
+will the bridge be open today,KNOWLEDGE,KNOWLEDGE_SEARCH,
+how is the pope doing now,KNOWLEDGE,KNOWLEDGE_SEARCH,
+is this app compatible with mac,KNOWLEDGE,KNOWLEDGE_SEARCH,
+can we drive throught this tunnel,KNOWLEDGE,KNOWLEDGE_SEARCH,
+this looks like a onw way street,KNOWLEDGE,KNOWLEDGE_SEARCH,
+I want to see a funny movie,ENTERTAINMENT,ENTERTAINMENT_MOVIE,comedy
+I want to see skyfall,ENTERTAINMENT,ENTERTAINMENT_MOVIE,skyfall
+when do the leafs play,ENTERTAINMENT,ENTERTAINMENT_EVENT,leafs
+I want to see justin bieber,ENTERTAINMENT,ENTERTAINMENT_EVENT,justin bieber
+what's fun to do on the weekend,ENTERTAINMENT,ENTERTAINMENT_AMBIGUOUS,
+email adrian about the api,EMAIL,EMAIL_SEND,api|adrian
+show me emails from josh,EMAIL,EMAIL_DISPLAY,josh
+help,HELP,HELP_HELP,
+what can you do,HELP,HELP_HELP,
+i would like a first class ticket to new york leaving from toronto on the day before christmas returning a week after christmas,TRAVEL,TRAVEL_FLIGHT,
+book flight from san francisco to new york for tomorrow,TRAVEL,TRAVEL_FLIGHT,
+flying out of seattle to las vegas on the 23rd,TRAVEL,TRAVEL_FLIGHT,
+flying from portland to london,TRAVEL,TRAVEL_FLIGHT,
+fly to new delhi from san francisco during the thanksgiving weekend,TRAVEL,TRAVEL_FLIGHT,
+book flight from tahoe to jersey a week from now,TRAVEL,TRAVEL_FLIGHT,
+fly out of san francisco,TRAVEL,TRAVEL_FLIGHT,
+plane tickets for san diego on the 23rd,TRAVEL,TRAVEL_FLIGHT,
+play the song firework,MUSIC,MUSIC_PLAY,firework
+please pause the music,MUSIC,MUSIC_PAUSE,
+i want to listen to sting songs,MUSIC,MUSIC_PLAY,
+play songs by imagine dragon,MUSIC,MUSIC_PLAY,
+play my favourite song,MUSIC,MUSIC_PLAY,
+play the last played song,MUSIC,MUSIC_PLAY,
+start playing the playlist car,MUSIC,MUSIC_PLAY,
+listen to radio head,MUSIC,MUSIC_PLAY,
+start playing cold play,MUSIC,MUSIC_PLAY,
+i want to listen to radio head,MUSIC,MUSIC_PLAY,
+play some music,MUSIC,MUSIC_PLAY,
+play any music,MUSIC,MUSIC_PLAY,
+start playing,MUSIC,MUSIC_PLAY,
+play radio head,MUSIC,MUSIC_PLAY,
+play cold play,MUSIC,MUSIC_PLAY,
+play chaching,MUSIC,MUSIC_PLAY,
+start playing cold play,MUSIC,MUSIC_PLAY,
+Set up a meeting from 8 to 10,CALENDAR,CALENDAR_CREATE_EVENT,meeting
+what meetings do I have on Friday,CALENDAR,CALENDAR_SEARCH,meetings
+Cancel my next meeting,CALENDAR,CALENDAR_REMOVE_EVENT,meeting
+Move my 5 o'clock to 7,CALENDAR,CALENDAR_MODIFY_EVENT,
+When am I available,CALENDAR,CALENDAR_AVAILABILITY,
+What is the weather outside?,WEATHER,WEATHER_STATUS,
+What is the wind speed?,WEATHER,WEATHER_DETAILS,
+When is the sunset?,WEATHER,WEATHER_SUNSET,
+When is sunrise for Friday?,WEATHER,WEATHER_SUNRISE,
+Remind me to put out the garbage tonight,REMINDER,REMINDER_SET,put out the garbage
+Find me reminders for this week,REMINDER,REMINDER_SEARCH,
+set an alarm for five thirty,ALARM,ALARM_SET,
+Set an alarm at five thirty every morning,ALARM,ALARM_SET_RECURRING,
+Change my morning alarms from 5 to 7,ALARM,ALARM_MODIFY,
+Cancel my alarm at 6 tonight,ALARM,ALARM_CANCEL,
+Remove all my alarms,ALARM,ALARM_CANCEL_ALL_ALARMS,
+Find my alarms,ALARM,ALARM_SEARCH,
+Set a 30 minute timer,TIMER,TIMER_START,
+show my timer,TIMER,TIMER_DISPLAY,
+cancel the timer,TIMER,TIMER_CANCEL,
+pause timer,TIMER,TIMER_PAUSE,
+start a stopwatch,STOPWATCH,STOPWATCH_START,
+stop a stopwatch,STOPWATCH,STOPWATCH_STOP,
+display the stopwatch,STOPWATCH,STOPWATCH_DISPLAY,
+directions to the LA stadium,NAVIGATION,NAVIGATION_DIRECTIONS,
+directions to the san francisco airport,NAVIGATION,NAVIGATION_DIRECTIONS,
+walking directions to the melt,NAVIGATION,NAVIGATION_DIRECTIONS,
+how far is uc berkeley,NAVIGATION,NAVIGATION_DIRECTIONS,
+biking directions to 2620 college ave,NAVIGATION,NAVIGATION_DIRECTIONS,
+how do i get to the bakery on the 23rd street,NAVIGATION,NAVIGATION_DIRECTIONS,
+give me directions for ben's place,NAVIGATION,NAVIGATION_DIRECTIONS,
+help me navigate to ben's place,NAVIGATION,NAVIGATION_DIRECTIONS,
+smallest route to ben's place,NAVIGATION,NAVIGATION_DIRECTIONS,
+How do I get to the mall from my house,NAVIGATION,NAVIGATION_DIRECTIONS,house|mall
+how do I get to san francisco,NAVIGATION,NAVIGATION_DIRECTIONS,san francisco
+where am I,NAVIGATION,NAVIGATION_WHERE_AM_I,
+my current location,NAVIGATION,NAVIGATION_WHERE_AM_I,
+show me my current location,NAVIGATION,NAVIGATION_WHERE_AM_I,
+my current position,NAVIGATION,NAVIGATION_WHERE_AM_I,
+current location,NAVIGATION,NAVIGATION_WHERE_AM_I,
+Show my current location,NAVIGATION,NAVIGATION_WHERE_AM_I,
+When will the next bus come to the university,TRANSIT,TRANSIT_NEXT_BUS,university|bus
+bus stops near the mall,TRANSIT,TRANSIT_NEARBY_STOPS,mall
+What is the schedule for the green route tomorrow,TRANSIT,TRANSIT_SCHEDULE,green
+i want to buy a book on amazon,SEARCH,SEARCH_AMAZON,book
+search amazon for electronics,SEARCH,SEARCH_AMAZON,electronics
+bing search ryan seacrest,SEARCH,SEARCH_BING,ryan seacrest
+search ebay for socks,SEARCH,SEARCH_EBAY,socks
+search the web for cheese,SEARCH,SEARCH_DEFAULT,cheese
+google search androids,SEARCH,SEARCH_GOOGLE,androids
+how do i make butter chicken,SEARCH,SEARCH_RECIPES,butter chicken
+search wikipedia for the romans,SEARCH,SEARCH_WIKIPEDIA,romans
+show unread texts,TEXT,TEXT_DISPLAY,
+send a text to rob how is the law stuff,TEXT,TEXT_SEND,rob|how is the law stuff
+send a facebook message to zhiyuan hey g,SOCIAL,SOCIAL_FACEBOOK_SEND_MESSAGE,
+message shubham on facebook,SOCIAL,SOCIAL_FACEBOOK_SEND_MESSAGE,shubham|message
+send shubham a message using facebook,SOCIAL,SOCIAL_FACEBOOK_SEND_MESSAGE,shubham|message
+send shubham a message saying hey whats up using facebook,SOCIAL,SOCIAL_FACEBOOK_SEND_MESSAGE,shubham|message
+facebook message shubham dude whats up,SOCIAL,SOCIAL_FACEBOOK_SEND_MESSAGE,shubham|message
+open facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+show me my facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+show facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+launch facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+open my facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+launch my facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+reveal my facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+take me to my facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+take me to facebook feed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+take me to the facebook newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+show social feed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+releal social feed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+launch social feed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+open newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+releave newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+launch newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+show newsfeed,SOCIAL,SOCIAL_FACEBOOK_SHOW_NEWSFEED,
+show me pictures of irene,SOCIAL,SOCIAL_FACEBOOK_SHOW_PHOTOS,irene
+show me pictures of irene,SOCIAL,SOCIAL_FACEBOOK_SHOW_PHOTOS,irene
+bring up irene's pictures,SOCIAL,SOCIAL_FACEBOOK_SHOW_PHOTOS,irene
+show photographs of irene from 2001,SOCIAL,SOCIAL_FACEBOOK_SHOW_PHOTOS,irene|2001
+lets look at irene's photograph,SOCIAL,SOCIAL_FACEBOOK_SHOW_PHOTOS,irene
+take me to cynthia's facebook wall,SOCIAL,SOCIAL_FACEBOOK_SHOW_WALL,cynthia
+open up laura's wall,SOCIAL,SOCIAL_FACEBOOK_SHOW_WALL,laura
+leave a message on laura's facebook wall have fun,SOCIAL,SOCIAL_FACEBOOK_WRITE_ON_WALL,laura|have fun
+write on sam's wall good luck in korea,SOCIAL,SOCIAL_FACEBOOK_WRITE_ON_WALL,sam|good luck in korea
+check me in at communitech,SOCIAL,SOCIAL_FOURSQUARE_CHECK_IN,
+check in at cafe strada,SOCIAL,SOCIAL_FOURSQUARE_CHECK_IN,
+where have i checked in,SOCIAL,SOCIAL_FOURSQUARE_SHOW_CHECKINS,
+show me my checkins,SOCIAL,SOCIAL_FOURSQUARE_SHOW_CHECKINS,
+show my twitter timeline,SOCIAL,SOCIAL_TWITTER_SHOW_FOLLOWER,
+bring up my twitter timeline,SOCIAL,SOCIAL_TWITTER_SHOW_FOLLOWER,
+lets look at my twitter timeline,SOCIAL,SOCIAL_TWITTER_SHOW_FOLLOWER,
+what is trending on twitter,SOCIAL,SOCIAL_TWITTER_SHOW_TRENDING,
+whats popular on twitter,SOCIAL,SOCIAL_TWITTER_SHOW_TRENDING,
+post a tweet i want a burrito,SOCIAL,SOCIAL_TWITTER_TWEET,i want a burrito
+tweet i want a burrito,SOCIAL,SOCIAL_TWITTER_TWEET,i want a burrito
+tweet to the world that i want a burrito,SOCIAL,SOCIAL_TWITTER_TWEET,i want a burrito
+open camera,APPLICATION,APPLICATION_LAUNCH,
+launch camera,APPLICATION,APPLICATION_LAUNCH,
+open camera app,APPLICATION,APPLICATION_LAUNCH,
+launch camera app,APPLICATION,APPLICATION_LAUNCH,
+open camera application,APPLICATION,APPLICATION_LAUNCH,
+launch camera application,APPLICATION,APPLICATION_LAUNCH,
+open the application called sparrow,APPLICATION,APPLICATION_LAUNCH,
+angry birds reveal your self,APPLICATION,APPLICATION_LAUNCH,angry birds
+launch angry birds,APPLICATION,APPLICATION_LAUNCH,angry birds
+open maps,APPLICATION,APPLICATION_LAUNCH,maps
+open google maps,APPLICATION,APPLICATION_LAUNCH,google maps
+launch chrome,APPLICATION,APPLICATION_LAUNCH,chrome
+open google,APPLICATION,APPLICATION_LAUNCH,google
+open alarm clock,APPLICATION,APPLICATION_LAUNCH,alarm clock
+what was the score of the game last night,SPORTS,SPORTS_MISC,
+how much did the la giants score,SPORTS,SPORTS_MISC,
+did the la giants win last night,SPORTS,SPORTS_MISC,
+how was the nfl game last night,SPORTS,SPORTS_MISC,
+what time does the nfl game start tonight,SPORTS,SPORTS_MISC,
+show me the score from last nights game,SPORTS,SPORTS_MISC,
+give me the scores from last nights game,SPORTS,SPORTS_MISC,
+who played last night,SPORTS,SPORTS_MISC,
+who is playing today,SPORTS,SPORTS_MISC,
+how did  the la giants do today,SPORTS,SPORTS_MISC,
